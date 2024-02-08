@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task_4</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+    <style>
+      .back {
+        background-image: url("image.jpg");
+        background-size: cover;
+        height: 80vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="back bg-hero min-h-screen bg-cover bg-center ">
+      <!-- navbar -->
+      <nav class="fixed top-0 w-full  z-50 backdrop-filter bg-black">
+        <div class="max-w-7xl mx-auto px-4">
+          <div class="flex justify-between">
+            <div class="flex space-x-10">
+              <!-- logo -->
+              <div class="">
+                <a href="#" class="flex items-center py-5 px-2 text-yellow-500">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-12 h-12 mr-1 text-yellow-400"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z"
+                    />
+                  </svg>
+                  <h1 class="font-bold">Ed'Hub</h1>
+                </a>
+              </div>
+
+              <!-- primary nav -->
+              <div class="hidden md:flex flex items-center space-x-1">
+                <a href="#" class="py-5 px-3 text-white hover:text-yellow-500"
+                  >Home</a
+                >
+                <a href="#" class="py-5 px-3 text-white hover:text-yellow-500"
+                  >Features</a
+                >
+                <a href="#" class="py-5 px-3 text-white hover:text-yellow-500"
+                  >About Us</a
+                >
+                <a href="#" class="py-5 px-3 text-white hover:text-yellow-500"
+                  >Services</a
+                >
+                <a href="#" class="py-5 px-3 text-white hover:text-yellow-500"
+                  >Blog</a
+                >
+              </div>
+            </div>
+
+            <!-- secondary nav -->
+            <div class="hidden md:flex flex items-center space-x-1">
+              <a href="#" class="py-5 px-3 text-white hover:text-yellow-500"
+                >Login</a
+              >
+              <a
+                href="#"
+                class="py-2 px-3 bg-yellow-400 text-yellow-900 rounded hover:text-yellow-800 hover:bg-yellow-300 transition duration-300"
+                >Signup</a
+              >
+            </div>
+
+            <!-- mobile button -->
+            <div class="md:hidden flex items-center ">
+              <button class="mobile-menu-btn text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="mobile-menu hidden md:hidden bg-black">
+          <a
+            href="#"
+            class="block py-2 px-4 text-sm hover:bg-gray-200 hover:text-yellow-500 text-white"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="block py-2 px-4 text-sm hover:bg-gray-200 hover:text-yellow-500 text-white"
+            >Features</a
+          >
+          <a
+            href="#"
+            class="block py-2 px-4 text-sm hover:bg-gray-200 hover:text-yellow-500 text-white"
+            >About us</a
+          >
+          <a
+            href="#"
+            class="block py-2 px-4 text-sm hover:bg-gray-200 hover:text-yellow-500 text-white"
+            >Services</a
+          >
+          <a
+            href="#"
+            class="block py-2 px-4 text-sm hover:bg-gray-200 hover:text-yellow-500 text-white"
+            >Blog</a
+          >
+        </div>
+      </nav>
+
+      <!-- content -->
+
+      <div class="py-32 text-center">
+        <h2 class="font-extrabold text-4xl text-blue-500"></h2>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="p-10 bg-gray-800 text-gray-200">
+        <div class="max-w-7xl mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+            <div class="mb-5">
+              <h4 text-2xl pb-4>Company</h4>
+              <p class="text-gray-500">
+                ABC local Street <br />
+                Dholakpur,PB 834007 <br />
+                India <br /><br />
+                <strong>Phone:</strong> +1 232 2321 4543 <br />
+                <strong>Email:</strong> info@gamil.com <br />
+              </p>
+            </div>
+            <div class="mb-5">
+              <h4 class="pb-4">Useful Links</h4>
+              <ul class="text-gray-500">
+                <li class="pb-4">
+                  <i class="fa fa-chevron-right text-yellow-500"></i>
+                  <a href="#" class="hover:text-yellow-500"> Home</a>
+                </li>
+                <li class="pb-4">
+                  <i class="fa fa-chevron-right text-yellow-500"></i
+                  ><a href="#" class="hover:text-yellow-500"> About Us</a>
+                </li>
+                <li class="pb-4">
+                  <i class="fa fa-chevron-right text-yellow-500"></i
+                  ><a href="#" class="hover:text-yellow-500"> Services</a>
+                </li>
+                <li class="pb-4">
+                  <i class="fa fa-chevron-right text-yellow-500"></i
+                  ><a href="#" class="hover:text-yellow-500">
+                    Terms Of Services</a
+                  >
+                </li>
+                <li class="pb-4">
+                  <i class="fa fa-chevron-right text-yellow-500"></i
+                  ><a href="#" class="hover:text-yellow-500"> Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mb-5">
+              <h4 class="pb-4">Our Services</h4>
+              <ul class="text-gray-500">
+                <li class="pb-4">
+                  <i class="fa fa-chevron-right text-yellow-500"></i
+                  ><a href="#" class="hover:text-yellow-500"> Web design</a>
+                </li>
+                <li class="pb-4">
+                  <i class="fa fa-chevron-right text-yellow-500"></i
+                  ><a href="#" class="hover:text-yellow-500">
+                    Web Development</a
+                  >
+                </li>
+                <li class="pb-4">
+                  <i class="fa fa-chevron-right text-yellow-500"></i
+                  ><a href="#" class="hover:text-yellow-500">
+                    Product Management</a
+                  >
+                </li>
+                <li class="pb-4">
+                  <i class="fa fa-chevron-right text-yellow-500"></i
+                  ><a href="#" class="hover:text-yellow-500"> Marketing</a>
+                </li>
+                <li class="pb-4">
+                  <i class="fa fa-chevron-right text-yellow-500"></i
+                  ><a href="#" class="hover:text-yellow-500"> Graphic design</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mb-5">
+              <h4 class="pb-4">Join Our Newsletter</h4>
+              <p class="text-gray-500 pb-2">
+                Join 25,000+ others and never miss out on new tips, tutorials,
+                and more
+              </p>
+              <form class="flex flex-row flex-wrap">
+                <input
+                  type="text"
+                  class="text-gray-500 w-2/3 p-2 focus:border-yellow-500"
+                  placeholder="email@example.com"
+                />
+                <button
+                  class="p-2 w-1/3 bg-yellow-500 text-white hover:bg-yellow-200"
+                >
+                  Subscribe
+                </button>
+              </form>
+              I
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full bg-gray-900 text-gray-500 px-10">
+        <div
+          class="max-w-7xl flex flex-col sm:flex-row py-4 mx-auto justify-between item-center"
+        >
+          <div class="text-center">
+            <div class="">
+              Copyright<strong><span>comapny</span></strong>
+            </div>
+            <div class="">
+              Designed by <a href="#" class="text-yellow-500">Tailwind Css</a>
+            </div>
+          </div>
+          <div class="text-center text-xl text-white mb-2">
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"
+              ><i class="fa fa-skype"></i
+            ></a>
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
